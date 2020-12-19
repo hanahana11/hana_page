@@ -36,4 +36,12 @@ $(function () {
 //            }
 //        });
     });
+    
+    $('.single-item').slick({
+        arrows: false,
+        autoplay: true,
+        autoPlaySpeed: 2000,
+        vertical: true
+    });
+
 });
