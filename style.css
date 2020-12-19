@@ -1,0 +1,332 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/**/
+body {
+    background-image: url("img/hanapage.haikei.png");
+    width: 100%;
+    font-family: "nasu";
+    background-repeat: round;
+}
+
+@font-face {
+    font-family: "nasu";
+    src:url('./Nasu-Bold.ttf');
+}
+
+.first {
+    position: relative;
+    background-size: cover;
+}
+
+img{
+    margin-top: 35px;
+}
+
+h1 {
+    font-size: 40px;
+    color: #1b0000;
+    font-weight: 400px;
+}
+.top-memo{
+    font-size: 15px;
+    
+    margin-bottom: 16px;
+    color: #1b0000;
+    font-weight: 400px;
+    position: relative;
+}
+
+p {
+    font-size: 15px;
+    left: -300px;
+    margin-bottom: 16px;
+    color: #1b0000;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: px;
+    color: #1b0000;
+    font-weight: 400;
+}
+
+/*
+h3{
+    font-size: 100px;
+    padding-right: 50px;
+    margin-bottom: 16px;
+    color: #07313A;
+    font-weight: 400;
+}
+*/
+.top_page {
+    z-index: 2;
+    height: 100vh;
+    position: relative;
+    padding-left: 300px;
+    margin-bottom: 30px;
+}
+
+.top_slid {
+    position: absolute;
+    z-index: 2;
+    top: 100px;
+    left: -100px;
+    padding-left: 300px;
+    margin-bottom: 30px;
+}
+
+.first {
+    z-index: 2;
+    position: relative;
+    height: 110vh;
+    
+}
+
+.first_title {
+    position: absolute;
+    top: 50px;
+    z-index: 2;
+    margin-top: 350px;
+    padding-left: 250px;
+    margin-bottom: 30px;
+}
+
+.first_memo {
+    z-index: 2;
+    position: absolute;
+    top: 600px;
+    left: 550px;
+    padding-left: 8px;
+    margin-bottom: 16px;
+    
+}
+
+.first_img {
+    position: absolute;
+    z-index: 2;
+    width: 300px;
+    height: 350px;
+    top: 30px;
+    left: 750px;
+}
+
+.first_2_img {
+    position: absolute;
+    top: -400px;
+    left: -400px;
+    z-index: 1;
+}
+
+.second {
+    position: relative;
+    height: 110vh;
+    background-size: cover;
+}
+
+.second_title {
+    position: absolute;
+    writing-mode: vertical-rl;
+    top: 100px;
+    right: 100px;
+    padding-left: 300px;
+    margin-bottom: 30px;
+}
+.second_photo {
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+
+.third {
+    position: relative;
+    height: 110vh;
+    background-size: cover;
+}
+
+.third_title {
+    margin-top: 250px;
+    margin-left: -50px;
+    padding-left: 300px;
+    margin-bottom: 30px;
+}
+
+.icon1 {
+    position: absolute;
+    margin-top : 80px;
+    margin-left: 200px;
+}
+
+.icon2 {
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 630px; 
+}
+
+.icon3 {
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 1060px;
+}
+
+.fourth {
+    position: relative;
+    height: 110vh;
+    background-size: cover;
+}
+
+.fourth_title {
+   text-align: center;
+    
+}
+
+.eizou1 {
+   position: absolute;
+   margin-top: ;
+   margin-left: ;
+}
+
+.eizou3 {
+   position: absolute;
+   margin-top: ;
+   margin-left: ;
+}
+
+.eizou3 {
+   position: absolute;
+   margin-top: ;
+   margin-left: ;
+}
+
+.sub_fourth_title{
+    text-align: center;
+}
+
+.fifth {
+    position: relative;
+}
+
+.fifth_title{
+    writing-mode: vertical-rl;
+    margin-top: 100px;
+    margin-left: -200px;
+    padding-left: 300px;
+    margin-bottom: 30px;
+}
+
+.fifth_memo2{
+    text-align: right;
+    margin-right: 500px;
+    margin-top: -350px;
+}
+
+.fifth_memo3{
+    text-align: right;
+    margin-right: 500px;
+    margin-top: 0px;
+}
+
+.sixth_title{
+    text-align: right;
+    margin-right: 150px;
+}
+
+/* animation */
+
+/* 下の二つは例 */
+
+.first-animation-img {
+    /* いったん非表示 */
+    opacity: 0;
+    /* 透明度 */
+    /* visibility: hidden; */
+    transform: translateY(40px);
+    transition: all 2s;
+}
+
+.first-animation-h1 {
+    /* いったん非表示 */
+    opacity: 0;
+    /* 透明度 */
+    /* visibility: hidden; */
+    transform: translateY(40px);
+    transition: all 2.7s;
+}
+
+.scroll-animation {
+    /* いったん非表示 */
+    opacity: 0;
+    /* 透明度 */
+    /* visibility: hidden; */
+    transform: translateY(40px);
+    transition: all 1s;
+}
+
+.first-animation-memo{
+    /* いったん非表示 */
+    opacity: 0;
+    /* 透明度 */
+    /* visibility: hidden; */
+    transform: translateY(40px);
+    transition: all 2.7s;
+}
+
+.asset1{
+    transform-origin: center;
+    transform: rotate(-20deg);
+    position: absolute;
+    top: 300px;
+    left: 100px;
+}
+
+.asset2{
+    transform-origin: center;
+    transform: rotate(20deg);
+    position: absolute;
+    top: 370px;
+    left: 160px;
+}
+
+.asset3{
+    transform-origin: center;
+    transform: rotate(-20deg);
+    position: absolute;
+    top: 430px;
+    left: 110px;
+}
+
+.asset4{
+    position: absolute;
+    top: 430px;
+    right: 150px;
+}
+
+.asset5{
+    transform-origin: center;
+    transform: rotate(30deg);
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.asset6{
+    transform-origin: center;
+    transform: rotate(10deg);
+    position: absolute;
+    top: 300px;
+    right: 300px;
+}
+.asset7{
+    position: absolute;
+    top: 330px;
+    left: 370px;
+}
+.asset8{
+    transform-origin: center;
+    transform: rotate(20deg);
+    position: absolute;
+    top: 430px;
+    left: 450px;
+}
