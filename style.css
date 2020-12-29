@@ -277,7 +277,7 @@ h3{
     display: flex;
     justify-content: center;
     margin-top: -400px;
-    margin-left: 400px;
+    margin-left: 500px;
 }
 
 .timer {
@@ -290,7 +290,7 @@ h3{
     display: flex;
     justify-content: center;
     margin-top: 150px;
-    margin-left: 400px;
+    margin-left: 500px;
 }
 
 .nanairo {
@@ -308,6 +308,7 @@ h3{
 .sixth_title {
     text-align: right;
     margin-right: 200px;
+    margin-top: 100px;
 }
 
 .sixth_img {
