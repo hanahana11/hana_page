@@ -43,5 +43,7 @@ $(function () {
         autoPlaySpeed: 2000,
         vertical: true
     });
+    
+    
 
 });
