@@ -35,6 +35,11 @@ h2 {
     font-weight: 400;
 }
 
+.single-item_h1 {
+    text-align: left;
+}
+
+
 /*
 h3{
     font-size: 100px;
@@ -78,6 +83,14 @@ h3{
     z-index: 2;
     top: 100px;
     left: 200px;
+}
+
+.instagram {
+    display: inline-block;
+}
+
+.twitter{
+    display: inline-block;
 }
 
 .first_title {
