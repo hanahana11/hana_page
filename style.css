@@ -39,7 +39,6 @@ h2 {
     text-align: left;
 }
 
-
 /*
 h3{
     font-size: 100px;
@@ -97,7 +96,6 @@ h3{
     display: inline-block;
 }
 
-
 .first_title {
     position: absolute;
     top: 350px;
@@ -120,37 +118,40 @@ h3{
 }
 
 .first_img {
-    width: 100px;
-    height: 100px;
-    overflow: hidden;
+    position: absolute;
+    top: 110px;
+    right: 400px;
+    z-index: 1;
 }
 
-.slider_container {
-    padding: 0;
+.slider {
     margin: 0;
-    overflow: hidden;
-    list-style: none;
-    position: relative;
+    padding: 0;
+    width: 400px;
+    left: 200px;
+    -webkit-mask-image: url("./img/top_waku.png");
+    -webkit-mask-size: cover;
 }
 
-.slider_item {
-    width: 100px;
-    height: 100px;
-    float: left;
+.slider img {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: 450px;
 }
 
 .first_2_img {
     position: absolute;
     top: -400px;
     left: -400px;
-    z-index: 1;
+    z-index: -4;
 }
 
 /* ---------second---------- */
 
 .second {
     position: relative;
-    height: 110vh;
+    height: 3184px;
 }
 
 .second_title {
@@ -164,6 +165,14 @@ h3{
 
 .second_photo {
     position: absolute;
+    left: 300px;
+}
+
+.zinsei {
+    -webkit-mask-image: url("./img/zinsei_waku.png");
+    -webkit-mask-repeat: no-repeat;
+    width: 1000px;
+    height: auto;
     left: 100px;
 }
 
@@ -184,10 +193,10 @@ h3{
 
 .icon {
     margin: 100px;
-
 }
 
 /* ---------fourth---------- */
+
 .fourth {}
 
 .fourth_title {
@@ -315,7 +324,7 @@ h3{
     margin-top: 20px;
 }
 
-.web{
+.web {
     display: flex;
     justify-content: center;
     margin-top: 150px;
@@ -355,6 +364,7 @@ h3{
     margin-left: 150px;
     margin-bottom: 250px;
 }
+
 /* animation */
 
 /* 下の二つは例 */

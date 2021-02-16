@@ -44,6 +44,12 @@ $(function () {
         vertical: true
     });
     
-    
+    $('.slider').slick({
+        arrows: false,
+        autoplay: true,
+        autoPlaySpeed: 6000
+    });
+
+
 
 });
